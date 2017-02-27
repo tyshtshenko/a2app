@@ -21,4 +21,10 @@ export class AppComponent {
     this.myHero = this.heroes[0];
   }
 
+  addHero(newHero: string) {
+    if (newHero) {
+      this.heroes.push(new Hero(0, newHero));
+    }
+  }
+
 }
