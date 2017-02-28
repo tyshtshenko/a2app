@@ -11,6 +11,8 @@ import {
   KeyUpComponent_v3,
   KeyUpComponent_v4
 } from './key-up/keyup.components';
+
+import { HeroFormComponent } from './hero-form/hero-form.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +20,8 @@ import {
     KeyUpComponent_v2,
     KeyUpComponent_v3,
     KeyUpComponent_v4,
-    ClickMeComponent
+    ClickMeComponent,
+    HeroFormComponent
   ],
   imports: [
     BrowserModule,
